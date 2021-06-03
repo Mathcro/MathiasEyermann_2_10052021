@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('Police/Raleway-Medium.ttf');
+}
+
+html {
+
+    font-family: 'Raleway', Arial, serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1.2em;
+}
+
+/*Manage Header section */
+header{
+    background-color: white;
+}
+
+#Fixed_Header{
+    position: fixed;
+    top :0; left : 0; right: 0;
+    background-color: white;
+    padding: 10px 8% 0% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Navigation {
+    display: flex;
+    align-items: baseline;
+
+}
+
+ ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ li {
+    margin-right: 50px;
+}
+
+header a {
+    font-size: 1.3em;
+    color: #303030;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+
+/*Search Items */
+
+#Recherche{
+    margin-top: 100px;
+    align-items: baseline;
+    
+}
+
+form{
+    display: flex;
+    width: 430px;
+    border-radius: 20px 20px 20px 20px;
+}
+form i {
+    border-radius: 20px 0px 0px 20px;   
+    font-size: 2em;
+    padding: 8px 8px ;
+    background-color: #f2f2f2;
+}
+
+
+input[type=text] {
+    font-size: 1.5em;
+    line-height: 50px;
+    border: 2px 2px 2px 2px solid  #303030; 
+}
+
+input[type=submit]{
+    font-size: 1.5em;
+    background-color:  #0065FC;
+    color: whitesmoke;
+    border-radius: 0px 20px 20px 0px;
+    line-height: 50px;
+    border: 0px;
+}
+
+#Filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Filtre i {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    font-size: 1.6em;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 25px; /* or 50% width & line-height */
+}
+
+#Filtre li {
+    border: 2px solid  #F2F2F2;
+    border-radius: 25px;
+    padding-right : 10px;
+
+}
+
+/* Main Page */
+
+#Main_Page {
+    display: flex;
+}
+
+#Main_Page h1, #Main_Page h2{
+    margin-left: 15px;
+}
+
+#Main_Page a{
+    font-size: 1.3em;
+    color: #303030;
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-left: 15px;
+}
+
+#Main_Page p.Notation i{
+    color: #0065FC;
+}
+
+
+#Main_Page section , aside {
+    border: 0px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    margin: 0.5em;
+
+}
+
+/*Hebergement */
+
+#Hebergement{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 900px;
+}
+#Hebergement h2{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#Hebergement em{
+    font-style: normal;
+    font-weight: bold;
+}
+
+#Hebergement section {
+    border: 0px solid #303030;
+    border-radius: 30px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 0 0.5em #303030;
+    margin: 1em;
+    padding: 0%;
+}
+
+#Hebergement img{
+    border-radius: 30PX 30px 0px 0px;
+    width: 14em;
+    height: 10em;
+    margin: 0.5em;
+}
+
+p.Notation{
+    margin-left: 20px;
+}
+
+/*Populaire*/
+
+#Populaire section{
+    display: flex;
+    flex-direction: row;
+    border: 0px solid #303030;
+    border-radius: 30px;
+    background-color: white;
+    margin: 1.5em;
+    box-shadow: 0 0 0.5em #303030;
+}
+
+#Populaire h2{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#Populaire em{
+    font-style: normal;
+    font-weight: bold;
+}
+
+#Populaire img{
+    border-radius: 30PX 0px 0px 30px;
+    padding: 5px 5px;
+    width: 11em;
+    height: 13em;
+}
+
+
+/*Activité*/
+
+#Activite{
+    display: flex;
+    width: 90%;
+}
+
+#Activite section{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #303030;
+    border-radius: 30px;
+    background-color: white;
+    text-align:left;
+    width: 300px;
+    box-shadow: 0 0 0.4em #303030;
+}
+
+#Activite img{
+    border-radius: 30PX 30px 0px 0px;
+    height: 500px;
+    width: 300px;
+}
+
+#Activite h1{
+    margin-left: 5px;
+}
+
+#Activite #under_block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em 0 2em;
+}
+
+#Activite #under_block img {
+height: 200px;
+}
+
+#Activite #under_block1{
+    margin-bottom: 1em;
+    border: 1px solid #303030;
+    border-radius: 30px;
+    box-shadow: 0 0 0.4em #303030;
+}
+
+#Activite #under_block2{
+    margin-top: 1em;
+    border: 1px solid #303030;
+    border-radius: 30px;
+    box-shadow: 0 0 0.4em #303030;
+}
+
+/*End of the Page */
+
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    text-align: left;
+    width: 99%;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+footer a{
+    font-size: 1em;
+    color: #303030;
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-left: 15px;
+}
+
