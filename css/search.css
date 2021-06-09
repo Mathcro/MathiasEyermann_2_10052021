@@ -2,9 +2,8 @@
 
 #Recherche
 {
-    margin-top: 100px;
-    align-items: baseline;
-    
+    margin-top: 100px;    
+    padding: 1em;
 }
 
 form
@@ -12,12 +11,15 @@ form
     display: flex;
     width: 430px;
     border-radius: 20px 20px 20px 20px;
+    
 }
 form i 
 {
     border-radius: 20px 0px 0px 20px;   
-    font-size: 2em;
-    padding: 8px 8px ;
+    font-size: 1.5em;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
     background-color: #f2f2f2;
 }
 
@@ -27,6 +29,8 @@ input[type=text]
     font-size: 1.5em;
     line-height: 50px;
     border: 2px 2px 2px 2px solid  #303030; 
+    font-family: 'Raleway';
+    src: url('Police/Raleway-Medium.ttf');
 }
 
 input[type=submit]
@@ -37,14 +41,27 @@ input[type=submit]
     border-radius: 0px 20px 20px 0px;
     line-height: 50px;
     border: 0px;
+    font-family: 'Raleway';
+    src: url('Police/Raleway-Medium.ttf');
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 #Filtre 
 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    padding: auto;
+    align-content: center;
 }
+
+#List_Filtre
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
 
 #Filtre i 
 {
@@ -57,10 +74,31 @@ input[type=submit]
     border-radius: 25px; /* or 50% width & line-height */
 }
 
+#Info_filtre i
+{
+    background-color: white;
+    color: #0065FC;
+    font-size: 1em;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    border: 2px solid  #F2F2F2;
+    border-radius: 25px; /* or 50% width & line-height */
+}
+
+#Info_filtre p
+{
+    font-size: 1em;
+}
+
+
+
+
+
 #Filtre li 
 {
     border: 2px solid  #F2F2F2;
     border-radius: 25px;
     padding-right : 10px;
-
+    font-weight: bold;
 }

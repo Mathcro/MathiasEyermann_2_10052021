@@ -49,13 +49,24 @@
          </form>
 
         <div id="Filtre">
-            <h1>Filtres</h1> 
-            <ul>
-                <li><a href=""><i class="fas fa-money-bill-wave"></i>Economique</a></li>
-                <li><a href=""><i class="fas fa-child"></i> Familial</a></li>
-                <li><a href=""><i class="fas fa-heart"></i> Romantique</a></li>
-                <li><a href=""><i class="fas fa-dog"></i> Animaux autorisés</a></li>            
-            </ul>
+            <div id="List_Filtre">
+                <div>
+                    <h1>Filtres</h1> 
+                </div>
+                <div>
+                <ul>
+                    <li><a href=""><i class="fas fa-money-bill-wave"></i> Economique</a></li>
+                    <li><a href=""><i class="fas fa-child"></i> Familial</a></li>
+                    <li><a href=""><i class="fas fa-heart"></i> Romantique</a></li>
+                    <li><a href=""><i class="fas fa-dog"></i> Animaux autorisés</a></li>            
+                </ul>
+                </div>
+            </div>
+            <div id="Info_filtre">
+                <p>
+                <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville
+                </p>    
+            </div>
         </div>
 
     </div>
@@ -75,13 +86,13 @@
                     <img src="Images/hebergements/3_medium/Auberge_la_cannebiere.jpg" alt="Auberge_la_cannebiere"> 
                     <h1>Auberge la Cannebière</h1>
                     <h2>Nuit à partir de <em>25€</em></h2>
-                        <P class="Notation">
+                    <P class="Notation">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        </P>
+                        <i class="fas fa-star" id="Vide"></i>
+                    </P>
                 </section>
 
                 <section>
@@ -106,7 +117,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <i class="fas fa-star" id="Vide"></i>
                     </p>
                 </section>
 
@@ -118,8 +129,8 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <i class="fas fa-star" id="Vide"></i>
+                        <i class="fas fa-star" id="Vide"></i>
                         </p>
                 </section>
 
@@ -132,7 +143,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
+                        <i class="fas fa-star" id="Vide"></i>
                     </p>
                 </section>
 
@@ -159,8 +170,9 @@
 
         <aside>
             <div id="Populaire">
-        
-                <h1>Les plus populaires <i class="fas fa-chart-line"></i> </h1>
+                <p class="Titre">
+                <h1>Les plus populaires <i class="fas fa-chart-line"></i></h1>
+                </p>
 
                 <section>
                     <div>
@@ -193,7 +205,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="fas fa-star" id="Vide"></i>
                         </p>
                         </div>
                 </section>
@@ -210,7 +222,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <i class="far fa-star"></i>
+                            <i class="fas fa-star" id="Vide"></i>
                         </p>
                         </div>
 

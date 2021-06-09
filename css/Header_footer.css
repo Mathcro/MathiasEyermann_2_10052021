@@ -74,13 +74,14 @@ footer
     margin-top: 2%;
     text-align: left;
     width: 99%;
+    padding: 1em;
 }
 
 footer div 
 {
     display: flex;
     flex-direction: column;
-    text-align: justify;
+    text-align: left;
 }
 
 footer a
@@ -90,4 +91,5 @@ footer a
     text-decoration: none;
     padding-bottom: 3px;
     margin-left: 15px;
+    text-align: left;
 }
