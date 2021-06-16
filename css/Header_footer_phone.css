@@ -1,0 +1,142 @@
+@font-face 
+{
+    font-family: 'Raleway';
+    src: url('Police/Raleway-Medium.ttf');
+}
+
+html 
+{
+
+    font-family: 'Raleway', Arial, serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 1300px;
+}
+
+h1{
+    font-size: 5em;
+}
+
+
+/*Manage Header section */
+header
+{
+    background-color: white;
+}
+
+header img
+{
+    width: 400px;
+    height: 400px;
+
+}
+
+#Fixed_Header
+{
+    position: fixed;
+    top :0; left : 0; right: 0;
+    background-color: white;
+    padding: 10px 8% 0% 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#Navigation 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-top: 200px;
+    padding-right: 100px;
+}
+
+#Lien
+{
+    order: 2 ;
+}
+
+header ul 
+ {
+    list-style-type: none;
+    display: flex;
+}
+
+header li 
+{
+    margin-right: 50px;
+}
+
+
+header a 
+{
+    font-size: 5em;
+    color: #303030;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+.Menu a
+{
+    border-bottom: 2px solid #303030;
+}
+
+.Menu a:hover
+{
+    border-bottom: 2px solid #0065FC;
+    padding: 10px 20px 0px 20px;
+    color: #0065FC;
+}
+
+.Menu a:active
+{
+    border-bottom: 2px solid #0065FC;
+    padding-top: 10px;
+    color: #0065FC;
+}
+
+#Connection a
+{
+    color: #0065FC;
+}
+
+
+.Standard_Bold
+{
+    font-weight: bold;
+}
+
+/*Footer */
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2%;
+    text-align: left;
+    width: 99%;
+    padding: 1em;
+}
+
+footer div 
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5em;
+}
+footer h1{
+    font-size: 5em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+footer a
+{
+    font-size: 4em;
+    color: #303030;
+    text-decoration: none;
+    padding-bottom: 40px;
+}

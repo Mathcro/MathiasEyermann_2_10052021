@@ -3,8 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/Header_footer.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 480px)" href="css/Header_footer_phone.css" />
+
     <link rel="stylesheet" href="css/body.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 480px)"  href="css/body_phone.css" />
+
     <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" media="all and (max-device-width: 480px)" href="css/search_phone.css" />
+
     <script src="https://kit.fontawesome.com/d106762d87.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
@@ -12,27 +18,27 @@
 <header>
     <section>
     <div id="Fixed_Header"> 
+        
     
         <div id="Logo">
             <img src="Images/Logo/Reservia.svg" alt="Reservia_Logo"> 
 	    </div>
 
         <div id="Navigation">
+        <div id="Lien">
+            <nav>
+                <ul class="Menu">
+                    <li><a href="#Hebergement"> Hébergements</a></li>
+                    <li><a href="#Activite">Activités</a></li>
+                </ul>
+            </nav>
+        </div>
 
-            <div id="Lien">
-                <nav>
-                    <ul class="Menu">
-                        <li><a href="#Hebergement"> Hébergements</a></li>
-                        <li><a href="#Activite">Activités</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div id="Connection">
-                <a href="" class="Standard_Bold">S'inscrire</a>
-            </div>
-
-        </div> 
+    
+        <div id="Connection">
+            <a href="" class="Standard_Bold">S'inscrire</a>
+        </div>
+    </div>
     </div>  
     </section>    
 
@@ -45,7 +51,8 @@
         <form method="post" action="index.html">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" name="recherche" />
-                <input type="submit" value="Rechercher" />
+                <input type="submit" value="R" media="all and (max-device-width: 480px)"/>
+                <input type="submit" value="Rechercher" media="all and (max-device-width: 480px)"/>
          </form>
 
         <div id="Filtre">
@@ -89,7 +96,7 @@
 
                     <div id="Liste_Hebergement">
 
-                    <section>
+                    <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Auberge_la_cannebiere.jpg" alt="Auberge_la_cannebiere"> 
                         <h1>Auberge la Cannebière</h1>
                         <h2>Nuit à partir de <em>25€</em></h2>
@@ -100,9 +107,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star" id="Vide"></i>
                         </span>
-                    </section>
+                    </div>
 
-                    <section>
+                    <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Hotel_du_port.jpg" alt="Hotel_du_port">
                         <h1>Hôtel du port</h1>
                         <h2>Nuit à partir de <em>52€</em></h2>
@@ -113,9 +120,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </span>
-                    </section>
+                    </div>
 
-                    <section>
+                    <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Hotel_les_mouettes.jpg" alt="Hotel_les_mouettes">
                         <h1>Hôtel les mouettes</h1>
                         <h2>Nuit à partir de <em>76€</em></h2>
@@ -126,9 +133,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star" id="Vide"></i>
                         </span>
-                    </section>
+                    </div>
 
-                    <section>
+                    <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Hotel_de_la_mer.jpg" alt="Hotel_de_la_mer">
                         <h1>Hôtel de la mer</h1>
                         <h2>Nuit à partir de <em>46€</em></h2>
@@ -139,9 +146,9 @@
                             <i class="fas fa-star" id="Vide"></i>
                             <i class="fas fa-star" id="Vide"></i>
                         </span>
-                    </section>
+                    </div>
 
-                    <section>
+                    <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Auberge_le_panier.jpg" alt="Auberge_le_panier">
                         <h1>Auberge Le Panier</h1>
                         <h2>Nuit à partir de <em>23€</em></h2>
@@ -152,9 +159,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star" id="Vide"></i>
                         </span>
-                    </section>
+                    </div>
 
-                    <section>
+                    <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Hotel_chez_amina.jpg" alt="Hotel_chez_amina">
                         <h1>Hôtel chez Amina</h1>
                         <h2>Nuit à partir de <em>96€</em></h2>
@@ -165,7 +172,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </span>
-                    </section>
+                    </div>
                     </div>
                 </span>
                 <span>
@@ -177,7 +184,7 @@
 
         </section>
 
-        <aside>
+        <section>
             <div id="Populaire">
                 <p class="Titre">
                     Les plus populaires
@@ -186,7 +193,7 @@
                     </spawn>
                 </p>
 
-                <section>
+                <div class="Bloc_Populaire">
                     <div>
                         <img src="Images/hebergements/4_small/Hotel_Le_soleil_du_matin.jpg" alt="Hotel_Le_soleil_du_matin">
                     </div>
@@ -203,9 +210,9 @@
                             <i class="fas fa-star"></i>
                         </span>
                     </div>
-                </section>
+                </div>
 
-                <section>
+                <div class="Bloc_Populaire">
                     <div>
                         <img src="Images/hebergements/4_small/Au_coeur_de_l_eau_Chambres_d_hotes.jpg" alt="Au_coeur_de_l_eau_Chambres_d_hotes">
                     </div>
@@ -222,9 +229,9 @@
                             <i class="fas fa-star" id="Vide"></i>
                         </span>
                     </div>
-                </section>
+                </div>
 
-                <section>
+                <div class="Bloc_Populaire">
                     <div>
                         <img src="Images/hebergements/4_small/Hotel_Tout_bleu_et_Blanc.jpg" alt="Hotel_Tout_bleu_et_Blanc">
                     </div>
@@ -242,17 +249,17 @@
                         </span>
                     </div>
 
-                </section>
+                </div>
         
 	        </div>
-        </aside>
+        </section>
     </div>
 
-    <h1>Activités à Marseille</h1>
+    
 
     <div id="Activite">
 
-
+        <h1>Activités à Marseille</h1>
 
         <section>
             <img src="Images/activites/3_medium\Vieux-Port.jpg" alt="Vieux-Port">
