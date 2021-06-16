@@ -52,9 +52,10 @@ header
 }
 
  li 
- {
+{
     margin-right: 50px;
 }
+
 
 header a 
 {
@@ -62,6 +63,31 @@ header a
     color: #303030;
     text-decoration: none;
     padding-bottom: 3px;
+}
+
+.Menu a:hover
+{
+    border-top: 2px solid #0065FC;
+    padding: 10px 20px 0px 20px;
+    color: #0065FC;
+}
+
+.Menu a:active
+{
+    border-top: 2px solid #0065FC;
+    padding-top: 10px;
+    color: #0065FC;
+}
+
+#Connection a
+{
+    color: #0065FC;
+}
+
+
+.Standard_Bold
+{
+    font-weight: bold;
 }
 
 /*Footer */
@@ -81,7 +107,6 @@ footer div
 {
     display: flex;
     flex-direction: column;
-    text-align: left;
 }
 
 footer a
@@ -90,6 +115,4 @@ footer a
     color: #303030;
     text-decoration: none;
     padding-bottom: 3px;
-    margin-left: 15px;
-    text-align: left;
 }
