@@ -2,13 +2,13 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/Header_footer.css" />
+    <link rel="stylesheet" media="all and (min-device-width: 481px)" href="css/Header_footer.css" />
     <link rel="stylesheet" media="all and (max-device-width: 480px)" href="css/Header_footer_phone.css" />
 
-    <link rel="stylesheet" href="css/body.css" />
+    <link rel="stylesheet" media="all and (min-device-width: 481px)" href="css/body.css" />
     <link rel="stylesheet" media="all and (max-device-width: 480px)"  href="css/body_phone.css" />
 
-    <link rel="stylesheet" href="css/search.css" />
+    <link rel="stylesheet" media="all and (min-device-width: 481px)" href="css/search.css" />
     <link rel="stylesheet" media="all and (max-device-width: 480px)" href="css/search_phone.css" />
 
     <script src="https://kit.fontawesome.com/d106762d87.js" crossorigin="anonymous"></script>
@@ -17,28 +17,33 @@
 <body>
 <header>
     <section>
-    <div id="Fixed_Header"> 
         
-    
+
+    <div id="Fixed_Header"> 
+        <span id="Fond-Fixe">
+
         <div id="Logo">
             <img src="Images/Logo/Reservia.svg" alt="Reservia_Logo"> 
 	    </div>
 
+
         <div id="Navigation">
-        <div id="Lien">
+            <div id="Lien">
             <nav>
                 <ul class="Menu">
                     <li><a href="#Hebergement"> Hébergements</a></li>
                     <li><a href="#Activite">Activités</a></li>
                 </ul>
             </nav>
-        </div>
+            </div>
 
     
-        <div id="Connection">
-            <a href="" class="Standard_Bold">S'inscrire</a>
+            <div id="Connection">
+                <a href="" class="Standard_Bold">S'inscrire</a>
+            </div>
         </div>
-    </div>
+
+        </span>
     </div>  
     </section>    
 
@@ -51,14 +56,14 @@
         <form method="post" action="index.html">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" name="recherche" />
-                <input type="submit" value="R" media="all and (max-device-width: 480px)"/>
-                <input type="submit" value="Rechercher" media="all and (max-device-width: 480px)"/>
+                <input type="submit" value="Rechercher" id="Submit_desktop"/>
+                <input type="submit" value="" id="Submit_phone"></input>
          </form>
 
         <div id="Filtre">
             <div id="List_Filtre" class="Standard_Bold">
                 <span>
-                    <h1>Filtres</h1> 
+                    <h1>Filtres</h1>
                 </span>
                 <span>
                 <ul>
@@ -70,9 +75,10 @@
                 </span>
             </div>
             <div id="Info_filtre">
-                <p>
-                <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville
-                </p>    
+                <i class="fas fa-info"></i> 
+                <div>
+                    Plus de 500 logements sont disponibles dans cette ville   
+                </div>
             </div>
         </div>
 
@@ -124,7 +130,7 @@
 
                     <div class="Bloc_Hebergement">
                         <img src="Images/hebergements/3_medium/Hotel_les_mouettes.jpg" alt="Hotel_les_mouettes">
-                        <h1>Hôtel les mouettes</h1>
+                        <h1>Hôtel Les mouettes</h1>
                         <h2>Nuit à partir de <em>76€</em></h2>
                         <span class="Notation">
                             <i class="fas fa-star"></i>
@@ -175,7 +181,7 @@
                     </div>
                     </div>
                 </span>
-                <span>
+                <span class="Hebergement_plus">
                     <a href="">Afficher plus</a>
                 </span>
 	        </div>
@@ -253,9 +259,9 @@
         
 	        </div>
         </section>
+    
     </div>
 
-    
 
     <div id="Activite">
 
@@ -314,7 +320,7 @@
     </div>
 
     <div id="Nos_hebergements">
-        <h1>Nos Hébergements</h1>
+        <h1>Nos hébergements</h1>
         <a href=""> Charte qualité</a>        
         <a href=""> Soumettre votre hôtel</a>   
     </div>

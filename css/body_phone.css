@@ -3,31 +3,7 @@
 #Main_Page {
     display: flex;
     flex-direction: column-reverse;
-}
-
-#Main_Page h1, #Main_Page h2{
-    margin-left: 15px;
-}
-
-#Main_Page a{
-    font-size: 1.3em;
-    color: #303030;
-    text-decoration: none;
-    padding-bottom: 3px;
-    margin-left: 15px;
-    font-weight: bold;
-    padding-left: 5px;
-}
-
-
-
-
-#Main_Page aside {
-    border: 0px solid #F2F2F2;
-    border-radius: 10px;
-    background-color: #F2F2F2;
-    margin: 0.5em;
-
+    padding-bottom: 100px;
 }
 
 /*Hebergement */
@@ -44,9 +20,10 @@
 #Main_Page h1{
     font-style: normal;
     font-weight: bold;
-    font-size:5em;
+    font-size: 5em;
     padding-bottom: 1px;
     margin-bottom: 10px;
+    margin-left: 50px;
 }
 
 #Main_Page h2{
@@ -57,6 +34,10 @@
     margin-bottom: 15px;
 }
 
+#Main_Page a{
+    margin-left: 50px;
+}
+
 #Hebergement em{
     font-style: normal;
     font-weight: bold;
@@ -65,16 +46,19 @@
 .Bloc_Hebergement {
     display: flex;
     flex-direction: column;
-    border: 0px solid #303030;
+    border: 0px;
     border-radius: 80px;
     text-align: left;
     background-color: white;
-    box-shadow: 0 0 0.5em #303030;
-    padding: 1em;
-    height: 45em;
+    box-shadow: 0 0 1.5em #303030;
+    height: 47em;
     line-height: 0.1em;
     width: 99%;
     margin: 2em;
+}
+
+.Bloc_Hebergement h1, .Bloc_Hebergement h2, .Notation{
+    padding-left: 0.5em;
 }
 
 #Hebergement img{
@@ -85,10 +69,13 @@
 
 #Hebergement a
 {
-    align-self: flex-start;
     font-size: 4em;
-    margin-top:2em;
-    margin-bottom: 2em;
+    font-style: normal;
+
+
+    color: #303030;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #Liste_Hebergement
@@ -115,22 +102,31 @@
 }
 
 /*Populaire*/
-#Populaire
-{
-    padding: 0.5em;
-    width: 1250px;
+
+#Populaire {
+    border: 0px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    margin: 0.5em;
+    padding: 1em;
+    width: 1200px;
 }
 
 .Bloc_Populaire{
     display: flex;
     flex-direction: row;
-    border: 0px solid #303030;
+    border: 0px;
     border-radius: 80px;
     background-color: white;
-    margin: 1.5em;
-    box-shadow: 0 0 0.5em #303030;
-    padding: 0.6em;
+    margin: 2em;
+    box-shadow: 0 0 1.5em #303030;
+    padding: 0.5em;
     height: 42em;
+    margin-bottom: 5em;
+}
+
+.Bloc_Populaire h1, .Bloc_Populaire h2{
+    padding-left: 0.3em;
 }
 
 #Populaire em{
@@ -140,8 +136,8 @@
 
 #Populaire img{
     border-radius: 80PX 0px 0px 80px;
-    width: 35em;
-    height: 99%;
+    width: 30em;
+    height: 100%;
 }
 
 p.Titre
@@ -173,40 +169,46 @@ p.Titre
     width: 1250px;
 }
 
+#Activite h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5em;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
 #Activite section{
     display: flex;
     flex-direction: column;
     border: 1px solid #303030;
-    border-radius: 30px;
+    border-radius: 70px;
     background-color: white;
     text-align:left;
-    height: 32em;
+    height: 55em;
     box-shadow: 0 0 0.4em #303030;
     width: 1150px;
     margin-left: 3em;
+    font-size: 0.7em;
+    margin: 2em;
 }
 
 #Activite img{
-    border-radius: 30PX 30px 0px 0px;
-    height: 75%;
+    border-radius: 70PX 70px 0px 0px;
+    height: 80%;
     width: 100%;
-}
-
-#Activite h1{
-    margin-left: 5px;
-    padding-left: 0.5em;
-    padding-top: 0.5em;
-    font-size: 3em;
 }
 
 #Activite #under_block{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70em;
+    height: 120em;
     width: 1150px;
     margin-bottom: 4em;
     margin-top: 4em;
+    margin-left: 3em;
+    font-size: 0.7em;
 }
 
 #Activite #under_block img 
@@ -218,15 +220,15 @@ p.Titre
 #Activite #under_block1{
     margin-bottom: 1em;
     border: 1px solid #303030;
-    border-radius: 30px;
+    border-radius: 80px;
     box-shadow: 0 0 0.4em #303030;
-    height: 32em;
+    height: 55em;
 }
 
 #Activite #under_block2{
     margin-top: 1em;
     border: 1px solid #303030;
-    border-radius: 30px;
+    border-radius: 80px;
     box-shadow: 0 0 0.4em #303030;
-    height: 32em;
+    height: 55em;
 }

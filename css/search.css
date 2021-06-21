@@ -43,6 +43,10 @@ input[type=submit]
     padding-left: 10px;
 }
 
+#Bouton_recherche{
+    visibility: hidden;
+}
+
 #Filtre 
 {
     display: flex;
