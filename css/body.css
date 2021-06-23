@@ -4,7 +4,7 @@
     display: flex;
 }
 
-#Main_Page h1, #Main_Page h2{
+#Main_Page .Titre_1, #Main_Page .Titre_2{
     margin-left: 15px;
 }
 
@@ -19,35 +19,34 @@
 }
 
 
+/*Hebergement */
 
-
-#Main_Page section , aside {
+#Hebergement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1em;
     border: 0px solid #F2F2F2;
     border-radius: 10px;
     background-color: #F2F2F2;
     margin: 0.5em;
-
 }
 
-/*Hebergement */
-
-#Hebergement{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 56em;
-    padding: 1em;
-}
-
-h1{
+.Titre_1
+{
     font-style: normal;
     font-weight: bold;
     font-size:1.3em;
     padding-bottom: 1px;
     margin-bottom: 10px;
+    display: block;
 }
 
-h2{
+.Titre_2
+{
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size:1em;
@@ -55,12 +54,14 @@ h2{
     margin-bottom: 15px;
 }
 
-#Hebergement em{
+#Hebergement em
+{
     font-style: normal;
     font-weight: bold;
 }
 
-.Bloc_Hebergement {
+.Bloc_Hebergement 
+{
     display: flex;
     flex-direction: column;
     border: 0px solid #303030;
@@ -74,9 +75,16 @@ h2{
     margin: 0.5em;
 }
 
-#Hebergement img{
+.Bloc_Hebergement .Titre_1
+{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#Hebergement img
+{
     border-radius: 30PX 30px 0px 0px;
-    width: 17em;
+    width: 16.5em;
     height: 9em;
 }
 
@@ -89,19 +97,20 @@ h2{
 {
     display: flex;
     flex-flow: row wrap;
-
 }
 
-.Notation{
+.Notation
+{
     margin-left: 15px;
 }
 
 
-.Notation i{
+.Notation i
+{
     color: #0065FC ;
 }
 
-.Notation i[id="Vide"]
+.Vide i
 {
     color: #DEEBFF ;
 }
@@ -110,9 +119,15 @@ h2{
 #Populaire
 {
     padding: 0.5em;
+    border: 0px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    margin: 0.5em;
+    width: 40%;
 }
 
-.Bloc_Populaire{
+.Bloc_Populaire
+{
     display: flex;
     flex-direction: row;
     border: 0px solid #303030;
@@ -124,12 +139,21 @@ h2{
     height: 11em;
 }
 
-#Populaire em{
+.Bloc_Populaire .Titre_1 
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#Populaire em
+{
     font-style: normal;
     font-weight: bold;
 }
 
-#Populaire img{
+#Populaire img
+{
     border-radius: 30PX 0px 0px 30px;
     width: 8em;
     height: 11em;
@@ -155,59 +179,77 @@ p.Titre
 }
 
 
+
 /*Activité*/
 
-#Activite{
+#Activite
+{
     display: flex;
+    flex-direction: column;
+    width: 99%;
     padding: 1em;
 }
 
-#Activite section{
+#Activite #Activite_Main
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Activite .Activite_bloc
+{
     display: flex;
     flex-direction: column;
-    border: 1px solid #303030;
     border-radius: 30px;
     background-color: white;
     text-align:left;
     height: 500px;
     width: 300px;
     box-shadow: 0 0 0.4em #303030;
+    margin-top: 2em;
 }
 
-#Activite img{
+#Activite img
+{
     border-radius: 30PX 30px 0px 0px;
     height: 90%;
     width: 300px;
 }
 
-#Activite h1{
+#Activite .Titre_1
+{
     margin-left: 5px;
     padding-left: 0.5em;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
-#Activite #under_block{
+#Activite .under_block
+{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 2.5em 0 2.5em;
+    margin: 2em 2em 0 2em;
 }
 
-#Activite #under_block img 
+#Activite .under_block img 
 {
     height: 75%;
 }
 
-#Activite #under_block1{
+#Activite .under_block1
+{
     margin-bottom: 1em;
-    border: 1px solid #303030;
     border-radius: 30px;
     box-shadow: 0 0 0.4em #303030;
     height: 14em;
 }
 
-#Activite #under_block2{
+#Activite .under_block2
+{
     margin-top: 1em;
-    border: 1px solid #303030;
     border-radius: 30px;
     box-shadow: 0 0 0.4em #303030;
     height: 14em;

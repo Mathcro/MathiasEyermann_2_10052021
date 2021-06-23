@@ -1,7 +1,7 @@
-@font-face 
+@font-face
 {
     font-family: 'Raleway';
-    src: url('Police/Raleway-Medium.ttf');
+    src: url('../Police/Raleway-Medium.ttf');
 }
 
 html 
@@ -13,11 +13,11 @@ html
     margin-top: 20px;
 }
 
-h1 
+h1, .Titre_1
 {
     font-size: 1.3em;
 }
-h2
+h2, .Titre_2
 {
     font-size: 1.2em;
 }
@@ -35,6 +35,7 @@ header
     background-color: white;
     padding: 10px 8% 0% 8%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -42,7 +43,6 @@ header
 {
     display: flex;
     align-items: baseline;
-
 }
 
  ul 
