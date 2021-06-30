@@ -1,9 +1,6 @@
-@font-face
+@media all and (min-device-width: 481px)
 {
-    font-family: 'Raleway';
-    src: url('../Police/Raleway-Medium.ttf');
-}
-
+    
 html 
 {
 
@@ -115,4 +112,5 @@ footer a
     color: #303030;
     text-decoration: none;
     padding-bottom: 3px;
+}
 }

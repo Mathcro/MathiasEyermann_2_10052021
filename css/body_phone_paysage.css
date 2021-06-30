@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media all and (min-device-width: 1201px)
+@media all and (min-device-width: 481px) and (max-device-width: 1200px)
 {
 
 #Main_Page {
@@ -126,7 +126,7 @@
     border-radius: 10px;
     background-color: #F2F2F2;
     margin: 0.5em;
-    width: 40%;
+    width: 90%;
 }
 
 .Bloc_Populaire

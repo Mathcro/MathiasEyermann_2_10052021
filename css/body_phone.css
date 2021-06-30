@@ -1,5 +1,9 @@
 /* Main Page */
 
+@media all and (max-device-width: 480px){
+
+
+
 #Main_Page {
     display: flex;
     flex-direction: column-reverse;
@@ -233,4 +237,5 @@ p.Titre
     border-radius: 80px;
     box-shadow: 0 0 1.5em #303030;
     height: 55em;
+}
 }

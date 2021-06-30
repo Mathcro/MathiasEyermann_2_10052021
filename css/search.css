@@ -1,5 +1,8 @@
 /*Search Items */
 
+@media all and (min-device-width: 481px)
+{
+
 #Recherche
 {
     margin-top: 100px;    
@@ -104,4 +107,6 @@ input[type=submit]
     border: 2px solid  #F2F2F2;
     border-radius: 25px;
     padding-right : 10px;
+    flex-wrap: nowrap;
+}
 }
