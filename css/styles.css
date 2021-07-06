@@ -9,7 +9,6 @@ html {
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 20px;
-
 }
 
 h1 {
@@ -24,9 +23,7 @@ header{
     background-color: white;
 }
 
-
-#Fixed_Header
-{
+#Fixed_Header{
     position: fixed;
     top :0; left : 0; right: 0;
     background-color: white;
@@ -34,17 +31,18 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 #Navigation {
     display: flex;
     align-items: baseline;
 
 }
 
-
  ul {
     list-style-type: none;
     display: flex;
 }
+
  li {
     margin-right: 50px;
 }
@@ -56,7 +54,64 @@ header a {
     padding-bottom: 3px;
 }
 
+/*Search Items */
 
+#Recherche{
+    margin-top: 100px;
+    align-items: baseline;
+    
+}
+
+form{
+    display: flex;
+    width: 430px;
+    border-radius: 20px 20px 20px 20px;
+}
+form i {
+    border-radius: 20px 0px 0px 20px;   
+    font-size: 2em;
+    padding: 8px 8px ;
+    background-color: #f2f2f2;
+}
+
+
+input[type=text] {
+    font-size: 1.5em;
+    line-height: 50px;
+    border: 2px 2px 2px 2px solid  #303030; 
+}
+
+input[type=submit]{
+    font-size: 1.5em;
+    background-color:  #0065FC;
+    color: whitesmoke;
+    border-radius: 0px 20px 20px 0px;
+    line-height: 50px;
+    border: 0px;
+}
+
+#Filtre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Filtre i {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    font-size: 1.6em;
+    width: 1.6em;
+    text-align: center;
+    line-height: 1.6em;
+    border-radius: 25px; /* or 50% width & line-height */
+}
+
+#Filtre li {
+    border: 2px solid  #F2F2F2;
+    border-radius: 25px;
+    padding-right : 10px;
+
+}
 
 /* Main Page */
 
@@ -76,7 +131,7 @@ header a {
     margin-left: 15px;
 }
 
-#Main_Page #Notation i{
+#Main_Page p.Notation i{
     color: #0065FC;
 }
 
@@ -124,7 +179,7 @@ header a {
     margin: 0.5em;
 }
 
-#Notation{
+p.Notation{
     margin-left: 20px;
 }
 
@@ -157,11 +212,6 @@ header a {
     height: 13em;
 }
 
-#Pop_Text
-{
-    display: flex;
-    flex-direction: column;
-}
 
 /*Activité*/
 
@@ -191,8 +241,7 @@ header a {
     margin-left: 5px;
 }
 
-#Activite #under_block
-{
+#Activite #under_block{
     display: flex;
     flex-direction: column;
     margin: 0 2em 0 2em;
