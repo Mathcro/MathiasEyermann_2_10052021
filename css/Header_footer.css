@@ -59,7 +59,11 @@ header a
     font-size: 1.3em;
     color: #303030;
     text-decoration: none;
-    padding-bottom: 3px;
+}
+
+.Menu a 
+{
+    padding: 10px 20px 0px 20px;
 }
 
 .Menu a:hover
