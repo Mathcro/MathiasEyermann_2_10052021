@@ -77,14 +77,14 @@ header a
 }
 .Menu a
 {
-    border-bottom: 4px solid #303030;
+    border-bottom: 8px solid #F2F2F2;
     padding: 0px 100px 30px 100px;
     margin: 0;
 }
 
 .Menu a:hover
 {
-    border-bottom: 4px solid #0065FC;
+    border-bottom: 8px solid #0065FC;
     padding: 0px 100px 30px 100px;
     color: #0065FC;
 }
