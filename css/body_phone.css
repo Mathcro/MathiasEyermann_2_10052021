@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media all and (max-device-width: 480px){
+@media screen and (max-width: 320px){
 
 
 
@@ -150,15 +150,19 @@
     height: 100%;
 }
 
-p.Titre
+div.Titre
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 5em;
     font-style: normal;
     font-weight: bold;
     padding: 0px 1.5em;
+}
+
+div.Titre i{
+    font-size: 4em;
+    margin-top: 60px;
 }
 
 .Texte_Populaire

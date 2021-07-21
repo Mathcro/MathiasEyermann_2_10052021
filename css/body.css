@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media all and (min-device-width: 1201px)
+@media screen and (min-width: 769px)
 {
 
 #Main_Page {
@@ -164,16 +164,20 @@ h3
     height: 11em;
 }
 
-p.Titre
+div.Titre
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 1.3em;
     font-style: normal;
     font-weight: bold;
     padding: 0px 1.5em;
 }
+div.Titre i{
+margin-top: 20px;
+font-size: 1.3em;
+}
+
 
 .Texte_Populaire
 {

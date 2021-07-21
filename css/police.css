@@ -1,11 +1,9 @@
 
 @font-face{
-    font-family: 'Raleway', sans-serif;
-    src: local('./Police/Raleway-Regular.ttf');
+    font-family: "Raleway", sans-serif;
+    src: url('/Police/Raleway-Medium.ttf');
 }
 
-@font-face{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    src: local('./Police/Raleway-Regular.ttf');
+body{
+    font-family: "Raleway", sans-serif;
 }
