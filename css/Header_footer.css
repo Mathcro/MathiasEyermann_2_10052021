@@ -10,14 +10,12 @@ html
     margin-top: 20px;
 }
 
-h1, .Titre_1
+h1
 {
     font-size: 1.3em;
 }
-h2, .Titre_2
-{
-    font-size: 1.2em;
-}
+
+
 
 /*Manage Header section */
 header
