@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
 {
 
 #Main_Page {
@@ -78,7 +78,6 @@ h3
     height: 18em;
     line-height: 0.1em;
     margin: 1.5em;
-    width: 18em;
 }
 
 .Bloc_Hebergement h2
@@ -90,7 +89,7 @@ h3
 #Hebergement img
 {
     border-radius: 30PX 30px 0px 0px;
-    width: 18em;
+    width: 20em;
     height: 10em;
 }
 
@@ -257,7 +256,6 @@ div.Titre i{
     border-radius: 30px;
     box-shadow: 0 0 0.4em #303030;
     height: 14em;
-    width: 380px;
 }
 
 #Activite .under_block2
@@ -266,7 +264,6 @@ div.Titre i{
     border-radius: 30px;
     box-shadow: 0 0 0.4em #303030;
     height: 14em;
-    width: 380px;
 }
 
 }
