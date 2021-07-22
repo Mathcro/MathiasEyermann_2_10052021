@@ -78,21 +78,21 @@ header a
 .Menu a
 {
     border-bottom: 8px solid #F2F2F2;
-    padding: 0px 100px 30px 100px;
+    padding: 0px 50px 30px 50px;
     margin: 0;
 }
 
 .Menu a:hover
 {
     border-bottom: 8px solid #0065FC;
-    padding: 0px 100px 30px 100px;
+    padding: 0px 50px 30px 50px;
     color: #0065FC;
 }
 
 .Menu a:active
 {
     border-bottom: 4px solid #0065FC;
-    padding: 0px 100px 30px 100px;
+    padding: 0px 50px 30px 50px;
     color: #0065FC;
 }
 
@@ -100,7 +100,7 @@ header a
 {
     color: #0065FC;
     position: absolute;
-    left: 900px;
+    left: 700px;
 }
 
 

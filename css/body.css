@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media screen and (min-width: 769px)
+@media only screen and (min-width: 1250px)
 {
 
 #Main_Page {
