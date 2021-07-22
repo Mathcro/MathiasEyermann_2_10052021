@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
 @media only screen and (max-device-width: 480px)
 {
+=======
+@media only screen and (max-device-width: 480px){
+>>>>>>> modif_eval
     
 html 
 {
@@ -102,7 +106,11 @@ header a
 {
     color: #0065FC;
     position: absolute;
+<<<<<<< HEAD
     left: 800px;
+=======
+    left: 700px;
+>>>>>>> modif_eval
 }
 
 
