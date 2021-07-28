@@ -57,7 +57,7 @@
     border: 0px;
     border-radius: 80px;
     background-color: white;
-    box-shadow: 0 0 1.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     height: 47em;
     width: 99%;
     margin: 2em;
@@ -136,7 +136,7 @@
     border-radius: 80px;
     background-color: white;
     margin: 2em;
-    box-shadow: 0 0 1.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     padding: 0.5em;
     height: 35em;
     margin-bottom: 5em;
@@ -208,7 +208,7 @@ div.Titre i{
     background-color: white;
     text-align:left;
     height: 55em;
-    box-shadow: 0 0 1.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     width: 1150px;
     margin-left: 3em;
     font-size: 0.7em;
@@ -241,14 +241,14 @@ div.Titre i{
 #Activite .under_block1{
     margin-bottom: 4em;
     border-radius: 80px;
-    box-shadow: 0 0 1.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     height: 55em;
 }
 
 #Activite .under_block2{
     margin-bottom: 4em;
     border-radius: 80px;
-    box-shadow: 0 0 1.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     height: 55em;
 }
 }

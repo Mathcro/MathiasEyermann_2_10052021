@@ -66,7 +66,7 @@ h3
     border: 0px solid #303030;
     border-radius: 30px;
     background-color: white;
-    box-shadow: 0 0 0.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     padding: 5px;
     height: 18em;
     line-height: 0.1em;
@@ -138,7 +138,7 @@ h3
     border-radius: 30px;
     background-color: white;
     margin: 1.5em;
-    box-shadow: 0 0 0.5em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     padding: 0.4em;
     height: 11em;
 }
@@ -221,7 +221,7 @@ div.Titre i{
     text-align:left;
     height: 500px;
     width: 380px;
-    box-shadow: 0 0 0.4em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     margin-top: 2em;
     margin-right: 2em;
     margin-left: 0.5em;
@@ -258,7 +258,7 @@ div.Titre i{
 {
     margin-bottom: 1em;
     border-radius: 30px;
-    box-shadow: 0 0 0.4em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     height: 14em;
     width: 380px;
 }
@@ -267,7 +267,7 @@ div.Titre i{
 {
     margin-top: 1em;
     border-radius: 30px;
-    box-shadow: 0 0 0.4em #303030;
+    box-shadow: 0.3em 0.3em 1em #303030;
     height: 14em;
     width: 380px;
 }
