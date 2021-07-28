@@ -29,14 +29,14 @@ form i
 
 input[type=text] 
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 50px;
     border: 1px solid  #f2f2f2; 
 }
 
 input[type=submit]
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-color:  #0065FC;
     color: whitesmoke;
     border-radius: 0px 20px 20px 0px;
@@ -69,11 +69,23 @@ input[type=submit]
 {
     background-color: #DEEBFF;
     color: #0065FC;
-    font-size: 1.6em;
+    font-size: 1.3em;
     width: 2em;
     text-align: center;
     line-height: 2em;
     border-radius: 50%; /* or 50% width & line-height */
+}
+
+
+#Filtre li:hover
+{
+    background-color: #DEEBFF;
+}
+
+#Filtre li:hover i
+{
+    background-color: #0065FC;
+    color : white;
 }
 
 #Info_filtre
