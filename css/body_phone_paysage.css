@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px)
+@media only screen and (min-width: 671px) and (max-width: 1245px)
 {
 
 #Main_Page {
@@ -24,7 +24,6 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 90%;
     padding: 1em;
     border: 0px solid #F2F2F2;
@@ -91,6 +90,9 @@ h3
 {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .Notation
@@ -210,6 +212,8 @@ div.Titre i{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 #Activite .Activite_bloc

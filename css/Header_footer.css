@@ -1,4 +1,4 @@
-@media only screen and (min-width: 481px)
+@media only screen and (min-width: 671px)
 {
     
 html 
@@ -25,7 +25,6 @@ header
 
 #Fixed_Header
 {
-    position: fixed;
     top :0; left : 0; right: 0;
     background-color: white;
     padding: 10px 8% 0% 8%;

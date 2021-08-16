@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media only screen and (min-width: 1025px)
+@media only screen and (min-width: 1245px)
 {
 
 #Main_Page {
@@ -25,6 +25,7 @@ h2
     padding-bottom: 1px;
     margin-bottom: 10px;
     display: block;
+    font-family: "Raleway", sans-serif;
 }
 
 h3
@@ -35,6 +36,7 @@ h3
     font-size:1em;
     padding-top: 1px;
     margin-bottom: 15px;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -98,6 +100,9 @@ h3
     flex-wrap: wrap;
     margin-left: 3%;
     margin-right: 3%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .Notation
@@ -166,7 +171,7 @@ h3
 {
     border-radius: 30PX 0px 0px 30px;
     width: 8em;
-    height: 11em;
+    height: 100%;
 }
 
 div.Titre
@@ -238,6 +243,7 @@ font-size: 1.3em;
     margin-left: 5px;
     padding-left: 0.5em;
     padding-right: 5px;
+    margin-top: 5px;
 }
 
 #Activite .under_block

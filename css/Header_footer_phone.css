@@ -1,5 +1,5 @@
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-width: 670px){
     
 html 
 {
@@ -37,7 +37,6 @@ header img
 
 #Fixed_Header
 {
-    position: fixed;
     background-color: white;
     padding-top: 200px;
     top: 0; left: 0; right: 0; bottom: 75%;
@@ -45,10 +44,11 @@ header img
 
 #Navigation 
 {
-    position: fixed;
     display: flex;
+    position: absolute;
     flex-direction: column;
     background-color: white;
+    top: 150px;
 
 }
 

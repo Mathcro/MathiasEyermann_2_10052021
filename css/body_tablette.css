@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)
+@media only screen and (min-width: 671px) and (max-width: 1245px) and (orientation:portrait)
 {
 
 #Main_Page {
@@ -22,7 +22,6 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 90%;
     padding: 1em;
     border: 0px solid #F2F2F2;
