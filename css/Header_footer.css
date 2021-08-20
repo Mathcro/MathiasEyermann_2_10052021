@@ -1,9 +1,6 @@
-@font-face 
+@media only screen and (min-width: 671px)
 {
-    font-family: 'Raleway';
-    src: url('Police/Raleway-Medium.ttf');
-}
-
+    
 html 
 {
 
@@ -13,14 +10,12 @@ html
     margin-top: 20px;
 }
 
-h1 
+h1
 {
     font-size: 1.3em;
 }
-h2
-{
-    font-size: 1.2em;
-}
+
+
 
 /*Manage Header section */
 header
@@ -30,11 +25,11 @@ header
 
 #Fixed_Header
 {
-    position: fixed;
     top :0; left : 0; right: 0;
     background-color: white;
     padding: 10px 8% 0% 8%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -42,7 +37,6 @@ header
 {
     display: flex;
     align-items: baseline;
-
 }
 
  ul 
@@ -62,7 +56,11 @@ header a
     font-size: 1.3em;
     color: #303030;
     text-decoration: none;
-    padding-bottom: 3px;
+}
+
+.Menu a 
+{
+    padding: 10px 20px 0px 20px;
 }
 
 .Menu a:hover
@@ -96,7 +94,7 @@ footer
 {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     margin-top: 2%;
     text-align: left;
     width: 99%;
@@ -107,6 +105,8 @@ footer div
 {
     display: flex;
     flex-direction: column;
+    margin-right: 15%;
+    margin-left: 2%;
 }
 
 footer a
@@ -115,4 +115,5 @@ footer a
     color: #303030;
     text-decoration: none;
     padding-bottom: 3px;
+}
 }
