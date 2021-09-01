@@ -1,0 +1,287 @@
+/* Main Page */
+
+@media only screen and (min-width: 801px) and (max-width: 1245px) and (orientation: landscape)
+{
+
+    #Main_Page {
+        display: flex;
+    }
+    
+    #Main_Page h2, #Main_Page h3{
+        margin-left: 15px;
+    }
+    
+    #Main_Page a, #Activite a
+    {
+        color: #303030;
+        text-decoration: none;
+    }
+    
+    h2
+    {
+        font-style: normal;
+        font-weight: bold;
+        font-size:20px;
+        padding-bottom: 1px;
+        margin-bottom: 10px;
+        display: block;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    h3
+    {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        font-size:15px;
+        padding-top: 1px;
+        margin-bottom: 15px;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    
+    /*Hebergement */
+    
+    #Hebergement
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 0px solid #F2F2F2;
+        border-radius: 10px;
+        background-color: #F2F2F2;
+        margin: 0.5em;
+        padding-bottom: 15px;
+    }
+    
+    #Hebergement em
+    {
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    .Bloc_Hebergement 
+    {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 6px #F2F2F2;
+        border-radius: 30px;
+        background-color: white;
+        padding: 5px;
+        margin: 10px;
+        width: 260px;
+        overflow: hidden;
+        height: 220px;
+    }
+    
+    .Bloc_Hebergement h2
+    {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    
+    .Bloc_Hebergement h3
+    {
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    
+    #Hebergement img
+    {
+        border-radius: 30PX 30px 0px 0px;
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+    }
+    
+    #Liste_Hebergement
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 3%;
+        margin-right: 3%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .Notation
+    {
+        margin-left: 15px;
+    }
+    
+    
+    .Notation i
+    {
+        color: #0065FC ;
+    }
+    
+    .Vide i
+    {
+        color: #DEEBFF ;
+    }
+    
+    
+    .Hebergement_plus a{
+        font-size: 20px;
+        font-weight: bold;
+        color: #303030;
+        text-decoration: none;
+        margin-left: 15px;
+        padding-left: 5px;
+    }
+    
+    /*Populaire*/
+    #Populaire
+    {
+        padding: 0.5em;
+        border: 0px solid #F2F2F2;
+        border-radius: 10px;
+        background-color: #F2F2F2;
+        margin: 0.5em;
+    }
+    
+    .Bloc_Populaire
+    {
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+        box-shadow: 0px 5px 6px #F2F2F2;
+        background-color: white;
+        margin: 1.5em;
+        padding: 0.4em;
+        width: 300px;
+        height: 180px;
+    }
+    
+    .Bloc_Populaire h2
+    {
+        padding-top: 0;
+        padding-bottom: 5px;
+        padding-right: 5px;
+    }
+    
+    #Populaire em
+    {
+        font-style: normal;
+        font-weight: bold;
+    }
+    
+    #Populaire img
+    {
+        border-radius: 30PX 0px 0px 30px;
+        width: 8em;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    div.Titre
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: bold;
+        padding: 0px 1.5em;
+    }
+    div.Titre i{
+    margin-top: 20px;
+    font-size: 1.3em;
+    }
+    
+    
+    .Texte_Populaire
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 5px;
+    }
+    
+    
+    
+    /*Activité*/
+    
+    #Activite
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1em;
+    }
+    
+    #Activite #Activite_Main
+    {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    #Activite .Activite_bloc
+    {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 5px 6px #F2F2F2;
+        border-radius: 30px;
+        background-color: white;
+        text-align:left;
+        height: 500px;
+        width: 300px;
+        margin-top: 2em;
+        padding: 0;
+    }
+    
+    #Activite img
+    {
+        border-radius: 30PX 30px 0px 0px;
+        height: 445px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #Activite h2
+    {
+        margin-left: 5px;
+        padding-left: 0.5em;
+        padding-right: 5px;
+        margin-top: 10px;
+    }
+    
+    #Activite .under_block
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        margin: 1.5em 1.5em 0 1.5em;
+        width: 300px;
+    }
+    
+    #Activite .under_block img 
+    {
+        height: 75%;
+        object-fit: cover;
+    }
+    
+    #Activite .under_block1
+    {
+        margin-bottom: 1em;
+        border-radius: 30px;
+        box-shadow: 0px 5px 6px #F2F2F2;
+        height: 14em;
+    }
+    
+    #Activite .under_block2
+    {
+        margin-top: 1em;
+        border-radius: 30px;
+        box-shadow: 0px 5px 6px #F2F2F2;
+        height: 14em;
+    }
+
+}

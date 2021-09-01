@@ -1,67 +1,103 @@
 /*Search Items */
 
-@media only screen and (min-width: 671px) and (max-width: 1245px)
+@media only screen and (max-width: 800px) and (orientation: landscape)
 {
 
 #Recherche
 {
-    margin-top: 100px;    
+    margin-top: 500px;    
     padding: 1em;
+    font-size: 3em;
+}
+
+#Recherche .Titre_1{
+    font-size: 1.8em; 
+    margin-top: 1em;
 }
 
 form
 {
     display: flex;
-    width: 430px;
+    width: 330px;
     border-radius: 20px 20px 20px 20px;
     
 }
 form i 
 {
-    border-radius: 20px 0px 0px 20px;   
-    font-size: 1.8em;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    border-radius: 40px 0px 0px 40px;   
+    font-size: 2em;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 0;
     background-color: #f2f2f2;
+    height: 150px;
 }
 
 
 input[type=text] 
 {
-    font-size: 1.2em;
-    line-height: 50px;
+    font-size: 2em;
+    line-height: 20px;
     border: 1px solid  #f2f2f2; 
+    width: 700px;
+    height: 200px;
 }
 
-input[type=submit]
+#Submit_phone
 {
-    font-size: 1.2em;
+    display: inline;
+    font-size: 0.8em;
+    background-color:  #0065FC;
+    border-radius: 40px;
+    color: whitesmoke;
+    border: 0;
+    
+}
+#Submit_phone i
+{
+    background-color:  #0065FC;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 50px;
+    color: whitesmoke;
+}
+
+#Submit_desktop
+{
+    display: none;
+}
+
+#Bouton_recherche
+{
     background-color:  #0065FC;
     color: whitesmoke;
-    border-radius: 0px 20px 20px 0px;
-    line-height: 50px;
-    border: 0px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-#Submit_phone{
-    visibility: hidden;
 }
 
 #Filtre 
 {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+
 }
 
 #List_Filtre
 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#List_Filtre .Titre_1
+{
+font-size: 1.5em;
+padding: 0;
+margin-bottom: 0px;
+margin-left: 50px;
 }
 
 
@@ -69,13 +105,12 @@ input[type=submit]
 {
     background-color: #DEEBFF;
     color: #0065FC;
-    font-size: 1.3em;
-    width: 2em;
+    font-size: 1.5em;
+    width: 1.8em;
     text-align: center;
-    line-height: 2em;
+    line-height: 1.8em;
     border-radius: 50%; /* or 50% width & line-height */
 }
-
 
 #Filtre li:hover
 {
@@ -88,42 +123,45 @@ input[type=submit]
     color : white;
 }
 
-#Info_filtre
+#Info_filtre 
 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+display: flex;
+flex-direction: row;
 }
 
 #Info_filtre div
 {
-    margin-left: 10px;
+    font-size: 1.2em;
 }
-
 
 #Info_filtre i
 {
     background-color: white;
     color: #0065FC;
     font-size: 1.2em;
-    width: 1.6em;
+    width: 1.2em;
     text-align: center;
-    line-height: 1.6em;
+    line-height: 1.2em;
     border: 2px solid  #F2F2F2;
-    border-radius: 25px; /* or 50% width & line-height */
+    border-radius: 50%; /* or 50% width & line-height */
+    padding: 30px 40px 30px 40px ;
+    margin-right: 1em;
 }
 
-#Filtre ul
-{
+#Filtre ul{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding: 2em;
 }
 
 #Filtre li 
 {
-    border: 2px solid  #F2F2F2;
-    border-radius: 50px;
-    padding-right : 10px;
-    margin-bottom: 2em;
+    border: 4px solid  #F2F2F2;
+    border-radius: 80px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    font-size: 0.25em;
+    margin-top: 40px;
+    margin-right: 50px;
 }
 }

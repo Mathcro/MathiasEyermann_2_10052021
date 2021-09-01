@@ -1,6 +1,6 @@
 /* Main Page */
 
-@media only screen and (min-width: 671px) and (max-width: 1245px)
+@media only screen and (max-width: 801px) and (orientation: landscape)
 {
 
 #Main_Page {
@@ -226,7 +226,7 @@ div.Titre i{
     background-color: white;
     text-align:left;
     height: 500px;
-    width: 380px;
+    width: 400px;
     box-shadow: 0px 5px 6px #F2F2F2;
     margin-top: 2em;
     margin-right: 2em;
@@ -237,7 +237,7 @@ div.Titre i{
 {
     border-radius: 30PX 30px 0px 0px;
     height: 445px;
-    width: 380px;
+    width: 400px;
     object-fit: cover;
 }
 
@@ -268,7 +268,7 @@ div.Titre i{
     border-radius: 30px;
     box-shadow: 0px 5px 6px #F2F2F2;
     height: 14em;
-    width: 380px;
+    width: 400px;
 }
 
 #Activite .under_block2
@@ -277,7 +277,7 @@ div.Titre i{
     border-radius: 30px;
     box-shadow: 0px 5px 6px #F2F2F2;
     height: 14em;
-    width: 380px;
+    width: 400px;
 }
 
 }

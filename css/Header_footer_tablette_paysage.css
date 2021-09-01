@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1245px)
+@media only screen and (min-width: 801px) and (max-width: 1245px) and (orientation:landscape)
 {
     
 html 
@@ -37,7 +37,6 @@ header
 {
     display: flex;
     align-items: baseline;
-    margin-top: 10px;
 }
 
  ul 
@@ -67,7 +66,7 @@ header a
 .Menu a:hover
 {
     border-top: 2px solid #0065FC;
-    padding: 40px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
     color: #0065FC;
 }
 

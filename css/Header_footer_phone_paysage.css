@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 670px){
+@media only screen and (max-width: 800px) and (orientation: landscape){
     
 html 
 {
@@ -13,7 +13,7 @@ html
 
 h1
 {
-    font-size: 1.3em;
+    font-size: 35px;
 }
 
 
@@ -25,21 +25,21 @@ header
 
 header img
 {
-    width: 400px;
-    height: 400px;
+    width: 150px;
+    height: 150px;
 
 }
 #Logo
 {
     position: absolute;
-    top :0; left : 50px;
+    top :0; left : 80px;
 }
 
 #Fixed_Header
 {
     background-color: white;
-    padding-top: 200px;
-    top: 0; left: 0; right: 0; bottom: 75%;
+    padding-top: 150px;
+    top: 0; left: 0; right: 0; bottom: 100px;
 }
 
 #Navigation 
@@ -48,7 +48,7 @@ header img
     position: absolute;
     flex-direction: column;
     background-color: white;
-    top: 150px;
+    top: 10px;
 
 }
 
@@ -70,7 +70,7 @@ header ul
 
 header a 
 {
-    font-size: 5em;
+    font-size: 35px;
     color: #303030;
     text-decoration: none;
     margin: 0;
@@ -79,14 +79,14 @@ header a
 .Menu a
 {
     border-bottom: 8px solid #F2F2F2;
-    padding: 0px 50px 30px 50px;
-    margin: 0;
+    padding: 0px 100px 30px 100px;
+    margin-left: 120px;
 }
 
 .Menu a:hover
 {
     border-bottom: 8px solid #0065FC;
-    padding: 0px 50px 30px 50px;
+    padding: 0px 100px 30px 100px;
     color: #0065FC;
 }
 
@@ -101,7 +101,8 @@ header a
 {
     color: #0065FC;
     position: absolute;
-    left: 700px;
+    left: 1000px;
+    top: 50px;
 }
 
 
@@ -132,14 +133,14 @@ footer div
     padding-left: 5em;
 }
 footer h1{
-    font-size: 5em;
-    padding-top: 2em;
+    font-size:35px;
+    padding-top:15px;
     padding-bottom: 0.5em;
 }
 
 footer a
 {
-    font-size: 4em;
+    font-size: 25px;
     color: #303030;
     text-decoration: none;
     padding-bottom: 40px;
