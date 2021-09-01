@@ -244,6 +244,8 @@ font-size: 1.3em;
     width: 23%;
     margin-top: 2em;
     padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #Activite img
@@ -265,11 +267,13 @@ font-size: 1.3em;
 #Activite .under_block
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
     justify-content: space-between;
-    
-    margin: 1.5em 1.5em 0 1.5em;
     width: 23%;
+    height: 500px;
+    margin-top: 2em;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #Activite .under_block img 
@@ -280,18 +284,18 @@ font-size: 1.3em;
 
 #Activite .under_block1
 {
-    margin-bottom: 1em;
     border-radius: 30px;
     box-shadow: 0px 5px 6px #F2F2F2;
     height: 14em;
+    
 }
 
 #Activite .under_block2
 {
-    margin-top: 1em;
     border-radius: 30px;
     box-shadow: 0px 5px 6px #F2F2F2;
     height: 14em;
+    align-content: flex-end;
 }
 
 }

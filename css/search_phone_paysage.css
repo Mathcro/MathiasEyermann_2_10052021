@@ -5,9 +5,9 @@
 
 #Recherche
 {
-    margin-top: 500px;    
+    margin-top: 100px;    
     padding: 1em;
-    font-size: 3em;
+    font-size: 30px;
 }
 
 #Recherche .Titre_1{
@@ -19,35 +19,35 @@ form
 {
     display: flex;
     width: 330px;
-    border-radius: 20px 20px 20px 20px;
-    
+    border-radius: 20px 20px 20px 20px;    
 }
 form i 
 {
     border-radius: 40px 0px 0px 40px;   
-    font-size: 2em;
-    padding-top: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    font-size: 35px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-right: 20px;
     padding-bottom: 0;
     background-color: #f2f2f2;
-    height: 150px;
+
 }
 
 
 input[type=text] 
 {
-    font-size: 2em;
+    font-size: 35px;
     line-height: 20px;
     border: 1px solid  #f2f2f2; 
     width: 700px;
-    height: 200px;
+    height: 100px;
+    font-weight: bold;
 }
 
 #Submit_phone
 {
     display: inline;
-    font-size: 0.8em;
+    font-size: 5px;
     background-color:  #0065FC;
     border-radius: 40px;
     color: whitesmoke;
@@ -58,9 +58,9 @@ input[type=text]
 {
     background-color:  #0065FC;
     border-radius: 40px;
-    padding-left: 40px;
-    padding-right: 30px;
-    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     color: whitesmoke;
 }
 
@@ -81,7 +81,13 @@ input[type=text]
     flex-direction: column;
     align-content: flex-start;
     justify-content: flex-start;
+}
 
+#Filtre h2 {
+    font-size: 45px;
+    padding-bottom: 0;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 #List_Filtre
@@ -94,7 +100,7 @@ input[type=text]
 
 #List_Filtre .Titre_1
 {
-font-size: 1.5em;
+font-size: 30px;
 padding: 0;
 margin-bottom: 0px;
 margin-left: 50px;
@@ -105,10 +111,10 @@ margin-left: 50px;
 {
     background-color: #DEEBFF;
     color: #0065FC;
-    font-size: 1.5em;
-    width: 1.8em;
+    font-size: 1.3em;
+    width: 1.6em;
     text-align: center;
-    line-height: 1.8em;
+    line-height: 1.6em;
     border-radius: 50%; /* or 50% width & line-height */
 }
 
@@ -127,24 +133,26 @@ margin-left: 50px;
 {
 display: flex;
 flex-direction: row;
+align-content: flex-start;
+align-items: baseline;
 }
 
 #Info_filtre div
 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #Info_filtre i
 {
     background-color: white;
     color: #0065FC;
-    font-size: 1.2em;
-    width: 1.2em;
+    font-size: 1em;
+    width: 1em;
     text-align: center;
-    line-height: 1.2em;
+    line-height: 1em;
     border: 2px solid  #F2F2F2;
     border-radius: 50%; /* or 50% width & line-height */
-    padding: 30px 40px 30px 40px ;
+    padding: 10px 15px 10px 15px ;
     margin-right: 1em;
 }
 

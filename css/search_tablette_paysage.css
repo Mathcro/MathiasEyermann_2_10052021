@@ -37,6 +37,7 @@ input[type=text]
     font-size: 20px;
     line-height: 30px;
     border: 1px solid  #f2f2f2; 
+    font-weight: bold;
 }
 
 input[type=submit]
@@ -59,7 +60,7 @@ input[type=submit]
 {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-content: flex-start;
 }
 
 #List_Filtre
@@ -110,7 +111,7 @@ input[type=submit]
 {
     background-color: white;
     color: #0065FC;
-    font-size: 25px;
+    font-size: 15px;
     width: 1.6em;
     text-align: center;
     line-height: 1.6em;
