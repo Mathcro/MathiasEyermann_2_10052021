@@ -38,10 +38,11 @@ input[type=text]
 {
     font-size: 35px;
     line-height: 20px;
-    border: 1px solid  #f2f2f2; 
+    border: 4px solid  #f2f2f2; 
     width: 700px;
     height: 100px;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 #Submit_phone
@@ -52,7 +53,7 @@ input[type=text]
     border-radius: 40px;
     color: whitesmoke;
     border: 0;
-    
+    margin-left: -30px;    
 }
 #Submit_phone i
 {
@@ -60,8 +61,9 @@ input[type=text]
     border-radius: 40px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
     color: whitesmoke;
+    width: 80px;
 }
 
 #Submit_desktop
@@ -100,10 +102,10 @@ input[type=text]
 
 #List_Filtre .Titre_1
 {
-font-size: 30px;
-padding: 0;
-margin-bottom: 0px;
-margin-left: 50px;
+    font-size: 30px;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-left: 50px;
 }
 
 
@@ -131,10 +133,10 @@ margin-left: 50px;
 
 #Info_filtre 
 {
-display: flex;
-flex-direction: row;
-align-content: flex-start;
-align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: baseline;
 }
 
 #Info_filtre div
@@ -164,7 +166,7 @@ align-items: baseline;
 
 #Filtre li 
 {
-    border: 4px solid  #F2F2F2;
+    border: 6px solid  #F2F2F2;
     border-radius: 80px;
     padding-bottom: 5px;
     padding-right: 25px;

@@ -48,7 +48,7 @@ header img
     position: absolute;
     flex-direction: column;
     background-color: white;
-    top: 150px;
+    top: 250px;
 
 }
 
@@ -102,6 +102,7 @@ header a
     color: #0065FC;
     position: absolute;
     left: 700px;
+    bottom: 5px;
 }
 
 
